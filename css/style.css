@@ -149,6 +149,34 @@ header .container{
     margin-top: 30px;
 }
 
+/****** activité conteneur - étape 8 ***********/
+.activites{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.activites-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.activites-card .card{
+    width: 300px;
+    height: 100%;
+    padding: 0px;
+}
+
+.activites-card .card img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 300px;
+    height: 380px;
+}
+
+.activites-card .card .card-content{
+    margin: 20px;
+}
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;

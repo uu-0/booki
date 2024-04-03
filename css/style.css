@@ -102,7 +102,7 @@ header .container{
 /****** hebergement card - étape 6 ***********/
 .hebergements-cards .card{
     margin-top: 33px;
-    width: 30%;
+    width: 230px;
 }
 
 .hebergements-cards .card-content {
@@ -131,10 +131,22 @@ header .container{
 
 .hebergements-cards .card-content .card-rating{
     display: flex;
-    align-items: flex-start;margin-top: 10px;
+    align-items: flex-start;
+    margin-top: 10px;
     margin-left: 4px;
     margin-bottom: 15px;
     font-size: 18px;
+}
+
+/****** hebergement card - étape 7 ***********/
+.hebergements-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hebergements-cards .section-title{
+    margin-top: 30px;
 }
 
 /****** General ***********/

@@ -26,6 +26,51 @@
 #btnHebergements{
     color: #0065FC;
 }
+/****** search bar - étape 4 ***********/
+.intro{
+    margin-bottom: 0;
+    margin-top: 0;;
+}
+
+#search-bar{
+    display: grid;
+    grid-template-columns: 53px 190px 140px;
+    grid-template-rows: 50px;
+    border: none;
+}
+
+.search-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+#map{
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+#city{
+    text-align: center;
+    outline: none;
+    font-weight: 700;
+    font-size: 1.15em;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+}
+
+#search{
+    background-color: var(--main-color);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    font-weight: 550;
+    font-size: 1.1em;
+    cursor: pointer;
+}
 
 /****** General ***********/
 * {

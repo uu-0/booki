@@ -1,3 +1,32 @@
+/****** header ***********/
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#booki-logo{
+    padding: 30px 0px;
+    width: 7%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-component{
+    margin: 15px;
+    padding: 6px;
+}
+
+.nav-component:hover{
+    border-top: 3px solid var(--main-color)
+}
+
+#btnHebergements{
+    color: #0065FC;
+}
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;

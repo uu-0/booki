@@ -198,6 +198,11 @@ footer{
     font-size: 16px;
 }
 
+/****** en plus ***********/
+.card:hover {
+    transform: scale(1.03);
+}
+
 /****** General (code fournit)***********/
 * {
     font-family: 'Raleway', sans-serif;

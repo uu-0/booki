@@ -16,11 +16,21 @@ header .container{
 }
 
 .nav-component:hover{
-    border-top: 3px solid var(--main-color)
+    border-top: 3px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.intro-text{
+    margin: 5px;
+}
+
+.intro-text p{
+    margin-bottom: 30px;
 }
 
 /****** ÉTAPE 4 - search-bar ***********/
 #search-bar{
+    margin-top: 15px;
     display: flex;
     border: none;
 }
@@ -189,7 +199,7 @@ footer{
     justify-content: flex-start;
 }
 
-.footer-section h3{
+.footer-section h2{
     font-size: 18px;
 }
 
@@ -348,12 +358,16 @@ a {
 
     .populaires-cards {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
     }
 
     .populaires-cards a {
         width: 30%;
+    }
+
+    .populaires-cards img {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
     }
 
     .populaires-cards .card-title {
@@ -366,17 +380,12 @@ a {
 
     /******* filter-bar *******/
     #filter-bar{
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
     #filter-label{
         margin-left: 10px
-    }
-    
-    #filter-container{
-        display: flex;
     }
     
     .filter-element{
@@ -444,6 +453,7 @@ a {
     .nav-component:hover{
         border-top: none;
         border-bottom: 3px solid var(--main-color);
+        color: var(--main-color);
     }
 
     /******* info-group *******/
@@ -481,10 +491,11 @@ a {
     /******* filter-bar *******/
     #filter-container{
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .filter-element{
-        padding: 10px 25px;
+        padding: 15px 25px;
         width: 130px;
         text-align: start;
     }
@@ -514,6 +525,7 @@ a {
     }
 
     .hebergements-cards .card{
+        margin-top: 20px;
         width: 350px;
     }
 
@@ -524,20 +536,41 @@ a {
         justify-content: space-between;
     }
 
+    
+    .populaires-cards .card{
+        margin-top: 20px;
+    }
+
     .populaires-cards a{
         width: 100%;
     }
 
+    .populaires-cards img {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .populaires-cards .card-content {
+        padding-right: 20px;
+    }
+
+    .populaires-cards .card-title{
+        font-size: 16px;
+    }
+
+    .populaires-cards .card-subtitle{
+        font-size: 14px;
+    }
+
     /******* activites section *******/
     .activites-card {
-        margin-top: 33px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .activites-card .card{
-        margin-top: 33px;
+        margin-top: 20px;
         width: 350px;
         height: 200px;
     }
